@@ -1,6 +1,5 @@
-**key takeaways:** 
-The goal of this project was to create a neural network that identifies handwritten digits. I learned:
+I built a neural network to recognize handwritten digits that achieved a *96% test accuracy*. Here's what I learned:
 
-+ Neural network architecture: Understanding how to design and configure a Multi-Layer Perceptron with hidden layers, activation functions (ReLU), and optimization algorithms (Adam) to solve classification problems.  
-+ Model evaluation best practices: Learning the importance of splitting data into training and testing sets to properly assess model performance and avoid overfitting, while interpreting metrics like accuracy and precision.  
-+ End-to-end ML workflow: data loading and preprocessing -> model training -> evaluation -> visualization and interpretation of results.  
+**1. Neural Network basics:** Learned how to set up the NN architecture (hidden layers, ReLU activation, Adam optimizer) and why each piece matters for getting good results.
+**2. Training v. Testing Data:** Figured out why you need separate training and testing data - to ensure the model really works (and not just memorized the answers).
+**3. End-to-End ML Implementation** - the process of loading data → training a model → checking results → visualizing predictions.
